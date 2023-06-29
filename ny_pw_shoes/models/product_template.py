@@ -5,6 +5,7 @@ from odoo.exceptions import ValidationError
 class ProductTemplate(models.Model):
     _inherit = "product.template"
 
+    # Add new selection to `detailed_type` called `shoes`.
     detailed_type = fields.Selection(
         selection_add=[("shoes", "Shoes")],
         ondelete={"shoes": "set product"},

@@ -6,16 +6,21 @@
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_only_form_view" />
             <field name="arch" type="xml">
+
+                <!-- Add `pairs_per_case` and `price_per_pair` fields to form view. -->
                 <xpath expr="//group[@name='group_standard_price']/*[1]" position="before">
                     <field name="pairs_per_case"
                         attrs="{'invisible': [('detailed_type', '!=', 'shoes')]}" />
                     <field name="price_per_pair"
                         attrs="{'invisible': [('detailed_type', '!=', 'shoes')]}" />
                 </xpath>
+
+                <!-- Make `list_price` read-only when `pairs_per_case` or `price_per_pair` is set. -->
                 <xpath expr="//field[@name='list_price']" position="attributes">
                     <attribute name="attrs">{'readonly': ['|', ('pairs_per_case', '!=', 0),
                         ('price_per_pair', '!=', 0.0)]}</attribute>
                 </xpath>
+
             </field>
         </record>
     </data>
