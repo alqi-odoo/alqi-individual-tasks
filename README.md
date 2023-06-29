@@ -1,19 +1,18 @@
-# [Tetragram] - [Task Name]
-[Link](url) to task
+# alqi - [Task Name]
 
-## Steps to complete the dev
-- [X] Step 1
-- [ ] Step 2
+[Link](url) to the task.
+
+## Steps to Complete
+- [X] Step 1.
 
 ## Issues/Blocking Points
-- [X] Issue #1
-- [ ] 
+- [X] Issue 1.
 
-## Topics I need clarification on
-- [X] Topic #1
+## Topics I Need Clarification On
+- [X] Topic 1.
       
-## Interns who helped me
-- [tetragram] - [# minutes helped] - [What they helped on]
+## Interns Who Helped Me
+- [tetragram] - [# minutes helped] - [what they helped on]
 
-## Interns I helped
+## Interns I Helped
 - [tetragram] - [# minutes helped]
