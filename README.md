@@ -10,7 +10,7 @@
 - [X] Add a compute and inverse method for the `list_price` field.
 - [X] Inherit the `product.product_template_only_form_view` view.
 - [X] Add the `pairs_per_case` and `price_per_pair` fields to the view.
-- [X] Add a new `detailed_type` called `shoes`.
+- [X] Add a new selection to `detailed_type` called `shoes`.
 - [X] Make the `pairs_per_case` and `price_per_pair` fields only visible when the `detailed_type` is set to `shoes`.
 - [X] Make the `list_price` read-only if and only if either of `pairs_per_case` or `price_per_pair` is not equal to 0.
 - [X] Add constraints to ensure that the `pairs_per_case` and `price_per_pair` fields are non-negative.
