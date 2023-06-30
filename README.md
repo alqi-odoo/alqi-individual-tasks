@@ -1,4 +1,4 @@
-# alqi - NY P&W Shoes
+# alqi - NY P&W Shoes Calculate Price
 
 [Link](https://www.odoo.com/web#id=3364783&cids=3&menu_id=4720&action=4665&active_id=3364781&model=project.task&view_type=form) to the task.
 
